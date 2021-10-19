@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aquamarine;
+    height: 600px;
+    width: 450px;
+}
+#header{
+    width: 450px;
+    height: 150px;
+    background-color: #f1d5b4;
+}
+.inner{
+    width: 450px;
+    height: 300px;
+    background-color: cadetblue;
+    display: flex;
+
+}
+#menu{
+    height: 300px;
+    width: 150px;
+    background-color: coral;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+.post{
+    width: 300px;
+    height: 150px;
+    background-color: deepskyblue;
+    border: .5px solid white;
+}
+#footer{
+    width: 450px;
+    height: 150px;
+    background-color: #f1d5b4;
+}

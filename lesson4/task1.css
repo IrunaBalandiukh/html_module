@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: #87bcee;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    width: 600px;
+    height: 100px;
+    background-color: #25035b;
+}
+.b{
+    width: 450px;
+    height: 300px;
+    background-color: coral;
+}
+.c{
+    width: 150px;
+    height: 300px;
+    background-color: lightgreen;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h100{
+    height: 100px;
+}
+.h200{
+    height: 200px;
+}
+.w700{
+    width: 700px;
+}
+.bg-gray{
+    background-color: #706d6d;
+}
+.container, .main__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.main, .main__content_bottom{
+    display: flex;
+    column-gap: 3px;
+}
+.main__content{
+    flex-grow: 3;
+}
+.main__aside{
+     flex-grow: 1;
+ }
+.main__content_top, .main__content_bottom{
+    height: 50%;
+}
+.main__content-item{
+    flex-grow: 1;
+}

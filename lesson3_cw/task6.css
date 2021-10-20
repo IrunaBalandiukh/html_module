@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h100{
+    height: 100px;
+}
+.h200{
+    height: 200px;
+}
+.w300{
+    width: 300px;
+}
+.bg-lightblue{
+    background-color: #4d91de;
+}
+.bg-blue{
+    background-color: #2c4ea4;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+.top, .bottom{
+    display: flex;
+    column-gap: 2px;
+}
+.top__item, .bottom__item{
+    height: 100%;
+    flex-grow: 1;
+}

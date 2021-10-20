@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h150{
+    height: 150px;
+}
+.h300{
+    height: 300px;
+}
+.w300{
+    width: 300px;
+}
+.bg-light{
+    background-color: #6795ee;
+}
+.bg-dark{
+    background-color: #142fb9;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.main{
+    display: flex;
+    column-gap: 3px;
+}
+.main__item{
+    height: 100%;
+    flex-grow: 1;
+}

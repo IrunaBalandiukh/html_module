@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    background-color: #d99595;
+}
+.header{
+    height: 150px;
+    background-color: #bba4e0;
+}
+.main{
+    display: flex;
+}
+.side{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.hero{
+    background-color: #7d94a9;
+}
+.sidebar{
+    background-color: #c7a535;
+}
+
+.related{
+    display: flex;
+}
+.images{
+    height: 100px;
+    flex-grow: 2;
+    background-color: #5a7049;
+}
+.posts{
+    height: 100px;
+    flex-grow: 1;
+    background-color: #0a3b2e;
+}
+.footer{
+    height: 150px;
+    background-color: #e8710f;
+}

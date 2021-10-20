@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+.bg-gray{
+    background-color: #706b6b;
+}
+.h150{
+    height: 150px;
+}
+.h300{
+    height: 300px;
+}
+.w600{
+    width: 600px;
+}
+.main{
+    margin-top: 3px;
+    display: flex;
+    column-gap: 3px;
+}
+.main__left{
+    flex-grow: 2;
+}
+.main__right{
+    flex-grow: 1;
+}

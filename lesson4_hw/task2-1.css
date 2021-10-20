@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h100{
+    height: 100px;
+}
+.h400{
+    height: 400px;
+}
+.w400{
+    width: 400px;
+}
+.bg-light{
+    background-color: #f3e080;
+}
+.bg-coral{
+    background-color: #c97050;
+}
+.bg-blue{
+    background-color: #499fd3;
+}
+.container, .main__posts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+}
+.main{
+    display: flex;
+    column-gap: 3px;
+}
+.main__menu{
+    height: 100%;
+    flex-grow: 1;
+}
+.main__posts{
+    height: 100%;
+    flex-grow: 3;
+}
+.main__posts_item{
+    height: 50%;
+}

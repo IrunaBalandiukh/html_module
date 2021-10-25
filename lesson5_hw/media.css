@@ -1,0 +1,163 @@
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 800px;
+    }
+    .news{
+        height: 1400px;
+    }
+    .news__item{
+        width: 45%;
+    }
+    .footer__inner{
+        width: 20%;
+    }
+    .footer__line{
+        width: 60%;
+    }
+    .footer__contacts {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .products{
+        height: 500px;
+    }
+    .products__content{
+        width: 65%;
+    }
+    .products__inner{
+        flex-wrap: wrap;
+    }
+    .products__item{
+        margin-left: 35px;
+    }
+    .about__title{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .about__text{
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .container{
+        width: 580px;
+    }
+    .products__item{
+        margin-left: 20px;
+    }
+    .products__logo {
+        width: 165px;
+        height: 125px;
+    }
+    .info__item_logo{
+        height: 120px;
+        width: 120px;
+    }
+    .news{
+        height: 1200px;
+    }
+    .news__item_pic {
+        width: 200px;
+        height: 160px;
+    }
+    .about__title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .about__text{
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: 300;
+    }
+    .footer__inner{
+        width: 30%;
+    }
+    .footer__line{
+        width: 80%;
+    }
+    .footer__contacts {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 400px;
+    }
+    .soc__icon{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .nav__btn{
+        display: flex;
+    }
+    .header__title{
+        font-size: 26px;
+    }
+    .header__text{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .products{
+        height: 900px;
+    }
+    .products__inner{
+        flex-direction: column;
+    }
+    .info{
+        height: 780px;
+    }
+    .info__list{
+        flex-direction: column;
+    }
+    .news{
+        height: 2560px;
+    }
+    .news__item{
+        width: 100%;
+    }
+    .news__item_pic {
+        width: 260px;
+        height: 200px;
+    }
+    .about{
+        height: 860px;
+    }
+    .about__inner{
+        flex-direction: column;
+    }
+    .about__item{
+        width: 100%;
+    }
+    .footer__icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+    .footer__line{
+        height: 1px;
+    }
+    .footer__contacts {
+        width: 60%;
+    }
+    .footer__contacts_item{
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        width: 400px;
+    }
+    .products__inner{
+        flex-direction: column;
+    }
+}
